@@ -1,13 +1,16 @@
 ### A very simple game in haskell
 
 The goal of this game is to get to `x`.
-But one loses if he/she goes to `o`. 
 
+But one loses if goes to `o`. 
 
+![alt text](gameplay.png)
 
 ### Prepare
 
-This lines should install install dendencies
+This lines should install install the dependencies.
+
+Stack is a package for haskell, btw.  
 
 ```bash
 curl -sSL https://get.haskellstack.org/ | sh
@@ -20,7 +23,8 @@ stack install exceptions
 ```
 
 ### Run
+1. `stack repl --package mtl --package ncurses --package vector --package exceptions`
+2. `main`
 
-```bash
-stack repl --package mtl --package ncurses --package vector --package exceptions
-```
+(I know that this way of running is screwed, of course. If you know how to configure this project tell me.)
+
