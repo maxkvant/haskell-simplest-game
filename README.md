@@ -10,7 +10,7 @@ But one loses if goes to `o`.
 
 This lines should install install the dependencies.
 
-Stack is a package for haskell, btw.  
+Stack is a package manager for haskell, btw.  
 
 ```bash
 curl -sSL https://get.haskellstack.org/ | sh
