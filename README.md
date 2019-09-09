@@ -1,6 +1,6 @@
 ### A very simple game in haskell
 
-The goal of this game is to get to `x`.
+The goal of this game is to reach `x`.
 
 But one loses if goes to `o`. 
 
